@@ -1,0 +1,36 @@
+git init --> initiate the new connection
+git init repositoy name -->specific repositoy name
+git config --global user.name "gitusername"
+git config --global user.email "mailid"
+git status -->current status
+git history -->what we did previously
+git add filename
+git add . -->adding all filename
+git add * --> adding all filename
+git add -a -->adding all filename
+git add -u --> adding untracked filename
+.gitignore -->ignore system, log filename
+git commit -m "your message"
+git push origin main
+git pull
+git commit -a -m "bypassing staging"
+git rm filename -->remove files from working place
+git rm --cached filename -->remove files from staging
+git restore filename
+git mv filename
+git clean-->removed untracked files
+git clean -force -->clean untracked files
+git clean -n -->will show what are files need to remove
+git clean -x remove all files listed in .gitignore
+git diff --staged (after staged to see what are files add)
+git diff HEAD
+git diff master branch name
+git reset --hard (restore)
+git reset --hard command filename
+git revert commithash  (hash value you will get it in git log command)
+git log
+git log -p -1 (last commit)
+git show -->detail information about changes
+git config --global --list
+git config --local --list
+git config --system --list
